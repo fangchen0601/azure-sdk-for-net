@@ -11,6 +11,6 @@ steps:
       exit 1
     }
     Write-Host "There are no file names that only differ in case."
-  displayName: Validate file names do not only differ on case
+Check file case duplicates
   workingDirectory: ${{ parameters.WorkingDirectory }}
   
